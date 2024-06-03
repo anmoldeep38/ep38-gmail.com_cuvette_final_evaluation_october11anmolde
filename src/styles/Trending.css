@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .trending-container {
+  padding: 2rem 7rem;
+  height: 100vh;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.total-quiz {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+} */
+
+.trending-container {
+  padding: 2rem 7rem;
+  height: 100vh;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem; /* Vertical gap between containers */
+}
+
+.total-quiz {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top:80px; /* Horizontal gap between quiz boxes */
+}
+
+.quiz-box {
+  flex: 1 1 calc(33.33% - 20px); /* Adjust width for three boxes per row with gap */
+  max-width: calc(33.33% - 20px);
+  margin-bottom: 5px;
+  /* margin-left: 5px; */ /* You can remove specific left margin */
+  /* padding: 15px; */
+}
+
+
+
+
+.total-card {
+  background-color: #fff;
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 550;
+  padding: 1rem 2rem;
+  align-items: flex-start;
+  width: 17rem;
+  height: 8.5rem;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  font-family: sans-serif;
+}
+.total-card > span {
+  font-size: 1.5rem;
+}
+.total-card > div {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+}
+.total-card > div > span {
+  font-size: 1.5rem;
+}
+.total-card > div > h1 {
+  font-size: 3.5rem;
+}
+.all-quiz {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+.all-quiz > h1 {
+  font-family: sans-serif;
+  color: #474444;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-y: scroll;
+}
+.quiz-card {
+  background-color: #fff;
+  border-radius: 0.32rem;
+  padding: 1rem;
+  width: max-content;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.quiz-card > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.views {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #ff5d01;
+  font-weight: 550;
+  font-size: 20px;
+}
+.quiz-name {
+  color: #474444;
+  font-weight: 550;
+  font-size: 25px;
+}
+.quiz-card > p {
+  color: #60b84b;
+  font-size: 17px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.question-analysis {
+  padding: 2rem 7rem;
+  height: 100vh;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  overflow: hidden;
+}
+.quiz-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quiz-details > h1 {
+  font-size: 2.5rem;
+  color: #5076ff;
+  font-family: sans-serif;
+  font-weight: 550;
+}
+.quiz-details > div {
+  display: flex;
+  flex-direction: column;
+  color: #ff5d01;
+  font-weight: 550;
+  gap: 10px;
+  font-family: sans-serif;
+}
+.questions-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-family: sans-serif;
+  overflow: scroll;
+}
+.view-question {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.view-question > h1 {
+  font-weight: 500;
+}
+.view-question > .options {
+  display: flex;
+  justify-content: space-between;
+}
+.view-question > .options > div {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  background-color: #fff;
+  border-radius: 0.32rem;
+  padding: 1rem 2rem;
+  color: #474444;
+  font-weight: 550;
+}
+.view-question > .options > div > p {
+  font-size: 3rem;
+}
+.qna-option {
+  flex-direction: column;
+}
